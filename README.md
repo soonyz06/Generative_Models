@@ -5,7 +5,8 @@ $$W = Z + \varepsilon$$
 
 <details>
   <summary>Improvements</summary>
-  - weibull, etc, Seed? Architecture?, Colours:), dgp, statioarity assumption, log_density
+  - weibull, etc, Seed?, satioarity assumption
+  - clean up so consistent architecture and simulation framework, improve model architecture, more experiments 
 </details>
 
 # Normalizing Flow Model
