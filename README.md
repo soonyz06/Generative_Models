@@ -2,8 +2,6 @@
 $$W = Z + \varepsilon$$
 - Extending normalising flow and GMMN models w/ MMD objectives to the unknown-noise setting 
 - Tests are OOS, using recovered empirical distribution (not the explicit density distribution)
-<img width="507" height="325" alt="summary_bar_chart" src="https://github.com/user-attachments/assets/5b2679dc-65b0-43ea-a1ce-ace92ff6924c" />
-<img width="507" height="325" alt="summary_bar_chart" src="https://github.com/user-attachments/assets/f37694b3-a74a-48e5-9865-91ebf32858d2" />
 
 <details>
   <summary>Improvements</summary>
@@ -12,6 +10,7 @@ $$W = Z + \varepsilon$$
 
 # Normalizing Flow Model
 
+<img width="507" height="325" alt="summary_bar_chart" src="https://github.com/user-attachments/assets/5b2679dc-65b0-43ea-a1ce-ace92ff6924c" />
 <details>
   <summary>Test on No-Noise Setting</summary>
   
@@ -58,6 +57,7 @@ $$W = Z + \varepsilon$$
 
 # GMMN
 
+<img width="507" height="325" alt="summary_bar_chart" src="https://github.com/user-attachments/assets/f37694b3-a74a-48e5-9865-91ebf32858d2" />
 <details>
   <summary>Test on No-Noise Setting</summary>
   
