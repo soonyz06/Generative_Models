@@ -1,7 +1,8 @@
 # Can Generative Models Recover Latent Distributions from Repeated Noisy Measurements?
 Extending flow-based generative deconvolution models (MMD) to the unknown-noise setting 
 
-Preliminary tests
+# Preliminary tests
+
 ## Gaussian
 <img width="1300" height="1560" alt="sanity_check_gaussian" src="https://github.com/user-attachments/assets/b60f3ac7-7d95-4680-a80c-f9c0e3523174" />
 
