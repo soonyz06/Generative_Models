@@ -2,7 +2,9 @@
 $$W = Z + \varepsilon$$
 - Extending flow-based and GMMN generative deconvolution models with MMD objectives to the unknown-noise setting
 - Tests are OOS, using recovered empirical distribution (not the explicit density distribution)
+<img width="507" height="325" alt="summary_bar_chart" src="https://github.com/user-attachments/assets/5b2679dc-65b0-43ea-a1ce-ace92ff6924c" />
 <img width="507" height="325" alt="summary_bar_chart" src="https://github.com/user-attachments/assets/f37694b3-a74a-48e5-9865-91ebf32858d2" />
+
 <details>
   <summary>Improvements</summary>
   - weibull, etc, Seed? Architecture?, Colours:), dgp, statioarity assumption, log_density
@@ -14,44 +16,44 @@ $$W = Z + \varepsilon$$
   <summary>Test on No-Noise Setting</summary>
   
   ## Gaussian
-  <img width="650" height="780" alt="sanity_check_gaussian" src="https://github.com/user-attachments/assets/b60f3ac7-7d95-4680-a80c-f9c0e3523174" />
+  <img width="650" height="780" alt="sanity_check_gaussian_flow" src="https://github.com/user-attachments/assets/5585f87d-25ba-4376-b043-99b78d8f6316" />
   
   ## GMM
-  <img width="650" height="780" alt="sanity_check_gmm" src="https://github.com/user-attachments/assets/704fa44d-930f-4908-836d-4c0a5c5c84a4" />
+  <img width="650" height="780" alt="sanity_check_gmm_flow" src="https://github.com/user-attachments/assets/4e0d1005-f640-432b-94b8-8089dfaf4f62" />
   
   ## Laplace
-  <img width="650" height="780" alt="sanity_check_laplace" src="https://github.com/user-attachments/assets/f18cc8f8-86b2-4e2a-a3ee-d2f707eaddaf" />
+  <img width="650" height="780" alt="sanity_check_laplace_flow" src="https://github.com/user-attachments/assets/cd40d3cc-c56e-44cd-8801-d698775ca7dd" />
   
   ## Lognormal
-  <img width="650" height="780" alt="sanity_check_lognormal" src="https://github.com/user-attachments/assets/86b1a730-79b6-496d-9a09-9f5ea5030733" />
-  
+  <img width="650" height="780" alt="sanity_check_lognormal_flow" src="https://github.com/user-attachments/assets/276351a5-c927-43a4-8161-6b18395d6be1" />
+
   ## Manifold
-  <img width="650" height="780" alt="sanity_check_manifold" src="https://github.com/user-attachments/assets/9b444966-4cf7-4a63-bad9-d3331c8d09b9" />
+  <img width="650" height="780" alt="sanity_check_manifold_flow" src="https://github.com/user-attachments/assets/a0162a65-44b0-4478-b0c1-e37ba1122c4c" />
   
   ## Student's t
-  <img width="650" height="780" alt="sanity_check_student_t" src="https://github.com/user-attachments/assets/ac207533-75d1-4288-bc5e-5953658ca92c" />
+  <img width="650" height="780" alt="sanity_check_student_t_flow" src="https://github.com/user-attachments/assets/a2957788-c005-4306-9ade-92d02b423741" />
 </details>
 
 <details>
   <summary>Test on Unknown-Noise Setting</summary>
   
   ## W-Gaussian, E-Gaussian
-  <img width="845" height="520" alt="config_gaussian_x_gaussian" src="https://github.com/user-attachments/assets/4f8f9265-0ef2-4a33-ba11-b72143a33238" />
-  
+  <img width="650" height="1560" alt="config_gaussian_x_gaussian_e-flow_z-flow" src="https://github.com/user-attachments/assets/e0f26852-4a6e-4b75-b04d-a04e3f4b9fce" />
+
   ## W-Gaussian, E-Laplace
-  <img width="845" height="520" alt="config_gaussian_x_laplace" src="https://github.com/user-attachments/assets/b314b8d3-b920-4bc0-9e84-34237b55d9cc" />
+  <img width="650" height="1560" alt="config_gaussian_x_laplace_e-flow_z-flow" src="https://github.com/user-attachments/assets/2861eaf5-ac18-4dff-9c09-9b0e4330a6ee" />
   
   ## W-GMM, E-Gaussian
-  <img width="845" height="520" alt="config_gmm_x_gaussian" src="https://github.com/user-attachments/assets/3702e777-15a2-40ca-8da4-5aeb8fec7db0" />
+  <img width="650" height="1560" alt="config_gmm_x_gaussian_e-flow_z-flow" src="https://github.com/user-attachments/assets/2449b586-b2f2-40ec-8d30-8447bc65f833" />
   
   ## W-GMM, E-Lognormal
-  <img width="845" height="520" alt="config_gmm_x_lognormal" src="https://github.com/user-attachments/assets/f14afb70-3717-415e-8dfa-96834773fa2e" />
-  
+  <img width="650" height="1560" alt="config_gmm_x_lognormal_e-flow_z-flow" src="https://github.com/user-attachments/assets/7cf9d808-cb50-4404-949d-d031b4fd54ce" />
+    
   ## W-Manifold, E-Laplace
-  <img width="845" height="520" alt="config_manifold_x_laplace" src="https://github.com/user-attachments/assets/36f8be90-6240-4933-8811-8e207ef45ec3" />
+  <img width="650" height="1560" alt="config_manifold_x_laplace_e-flow_z-flow" src="https://github.com/user-attachments/assets/a003de6a-9c98-478b-8b5c-b3234bf2f1a0" />
   
   ## W-Student's t, E-Gaussian
-  <img width="845" height="520" alt="config_student_t_x_gaussian" src="https://github.com/user-attachments/assets/4f09616d-ad7d-4599-9878-05f3711be468" />
+  <img width="650" height="1560" alt="config_student_t_x_gaussian_e-flow_z-flow" src="https://github.com/user-attachments/assets/0c8a1a3a-bffa-4278-90d0-992f6ec9dcfc" />
 </details>
 
 # GMMN
@@ -83,22 +85,22 @@ $$W = Z + \varepsilon$$
   <summary>Test on Unknown-Noise Setting</summary>
   
   ## W-Gaussian, E-Gaussian
-  <img width="845" height="520" alt="config_gaussian_x_gaussian_e-mlp_z-mlp" src="https://github.com/user-attachments/assets/0586a23d-d352-45ff-932b-94277b731be2" />
+  <img width="650" height="1560" alt="config_gaussian_x_gaussian_e-mlp_z-mlp" src="https://github.com/user-attachments/assets/4eaac567-7b29-424d-92b9-f4c2661607ae" />
   
   ## W-Gaussian, E-Laplace
-  <img width="845" height="520" alt="config_gaussian_x_laplace_e-mlp_z-mlp" src="https://github.com/user-attachments/assets/ac32cf0c-0acb-42c9-8513-084912d1f12a" />
-  
+  <img width="650" height="1560" alt="config_gaussian_x_laplace_e-mlp_z-mlp" src="https://github.com/user-attachments/assets/e7d30ea3-d058-41c0-a27e-b1cedfc2da94" />
+
   ## W-GMM, E-Gaussian
-  <img width="845" height="520" alt="config_gmm_x_gaussian_e-mlp_z-mlp" src="https://github.com/user-attachments/assets/b1d1bee4-8f9d-4911-a290-ebc8f7215083" />
-  
+  <img width="650" height="1560" alt="config_gmm_x_gaussian_e-mlp_z-mlp" src="https://github.com/user-attachments/assets/8b9947af-72df-44d6-88c3-d9e72fb8321c" />
+
   ## W-GMM, E-Lognormal
-  <img width="845" height="520" alt="config_gmm_x_lognormal_e-mlp_z-mlp" src="https://github.com/user-attachments/assets/eb7b63ba-a816-4b5d-8b87-5ab6c90f2b1e" />
+  <img width="650" height="1560" alt="config_gmm_x_lognormal_e-mlp_z-mlp" src="https://github.com/user-attachments/assets/c5f39864-77fd-46fe-822a-99eb6771915e" />
   
   ## W-Manifold, E-Laplace
-  <img width="845" height="520" alt="config_student_t_x_gaussian_e-mlp_z-mlp" src="https://github.com/user-attachments/assets/3073977c-1dcf-4ce1-ae12-d9fbadb84467" />
-  
+  <img width="650" height="1560" alt="config_manifold_x_laplace_e-mlp_z-mlp" src="https://github.com/user-attachments/assets/04a4bb9d-8c03-420d-a9ac-8f097f91d50e" />
+
   ## W-Student's t, E-Gaussian
-  <img width="845" height="520" alt="config_manifold_x_laplace_e-mlp_z-mlp" src="https://github.com/user-attachments/assets/6efa2e1f-04e4-4f2d-8f94-25f33abdcc9c" />
+  <img width="650" height="1560" alt="config_student_t_x_gaussian_e-mlp_z-mlp" src="https://github.com/user-attachments/assets/8818a211-eab5-4082-8705-34398b156c87" />
 
 </details>
 
