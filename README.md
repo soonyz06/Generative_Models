@@ -1,9 +1,10 @@
 # Can Generative Models Recover Latent Distributions from Repeated Noisy Measurements?
 $$W = Z + \varepsilon$$
-- Extending flow-based generative deconvolution models (MMD) to the unknown-noise setting 
+- Extending flow-based generative deconvolution models (MMD) to the unknown-noise setting
+- Tests are Recovered empirical distribution vs True empirical distribution (OOS)
 <details>
   <summary>Improvements</summary>
-  - weibull, etc, OOS? Seed? Architecture?, Colours:), dgp, statioarity assumption, 
+  - weibull, etc, Seed? Architecture?, Colours:), dgp, statioarity assumption, log_density
 </details>
 
 # Test on No-Noise Setting
