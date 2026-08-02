@@ -1,16 +1,16 @@
 # Can Generative Models Recover Latent Distributions from Repeated Noisy Measurements?
 $$W = Z + \varepsilon$$
-- Extending flow-based generative deconvolution models (MMD) to the unknown-noise setting
+- Extending flow-based and GMMN generative deconvolution models with MMD objectives to the unknown-noise setting
 - Tests are OOS, using recovered empirical distribution (not the explicit density distribution)
 <details>
   <summary>Improvements</summary>
   - weibull, etc, Seed? Architecture?, Colours:), dgp, statioarity assumption, log_density
 </details>
 
-# Test on No-Noise Setting
+# Normalizing Flow Model
 
 <details>
-  <summary>Results</summary>
+  <summary>Test on No-Noise Setting</summary>
   
   ## Gaussian
   <img width="650" height="780" alt="sanity_check_gaussian" src="https://github.com/user-attachments/assets/b60f3ac7-7d95-4680-a80c-f9c0e3523174" />
@@ -31,10 +31,8 @@ $$W = Z + \varepsilon$$
   <img width="650" height="780" alt="sanity_check_student_t" src="https://github.com/user-attachments/assets/ac207533-75d1-4288-bc5e-5953658ca92c" />
 </details>
 
-# Test on Unknown-Noise Setting
-
 <details>
-  <summary>Results</summary>
+  <summary>Test on Unknown-Noise Setting</summary>
   
   ## W-Gaussian, E-Gaussian
   <img width="845" height="520" alt="config_gaussian_x_gaussian" src="https://github.com/user-attachments/assets/4f8f9265-0ef2-4a33-ba11-b72143a33238" />
@@ -54,6 +52,32 @@ $$W = Z + \varepsilon$$
   ## W-Student's t, E-Gaussian
   <img width="845" height="520" alt="config_student_t_x_gaussian" src="https://github.com/user-attachments/assets/4f09616d-ad7d-4599-9878-05f3711be468" />
 </details>
+
+# GMMN
+
+<details>
+  <summary>Test on No-Noise Setting</summary>
+  
+  ## Gaussian
+  <img width="650" height="780" alt="sanity_check_gaussian_mlp" src="https://github.com/user-attachments/assets/d670bbc7-eb0d-4526-b795-c3edc6ea27f7" />
+  
+  ## GMM
+  <img width="650" height="780" alt="sanity_check_gmm_mlp" src="https://github.com/user-attachments/assets/342c1460-ad1f-4571-9f0e-50fab3494506" />
+  
+  ## Laplace
+  <img width="650" height="780" alt="sanity_check_laplace_mlp" src="https://github.com/user-attachments/assets/9d92e48f-beb7-4e60-9d45-47e54b572d5c" />
+  
+  ## Lognormal
+  <img width="650" height="780" alt="sanity_check_lognormal_mlp" src="https://github.com/user-attachments/assets/ddfb7928-1554-4510-8ae9-c80a7e42aba4" />
+  
+  ## Manifold
+  <img width="650" height="780" alt="sanity_check_manifold_mlp" src="https://github.com/user-attachments/assets/fa719d87-cc71-41e9-b099-8beb1dbeeb20" />
+  
+  ## Student's t
+  <img width="650" height="780" alt="sanity_check_student_t_mlp" src="https://github.com/user-attachments/assets/170927df-f91c-4666-8798-87096b66809f" />
+
+</details>
+
 
 
 
