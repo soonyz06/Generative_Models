@@ -2,6 +2,7 @@
 $$W = Z + \varepsilon$$
 - Extending flow-based and GMMN generative deconvolution models with MMD objectives to the unknown-noise setting
 - Tests are OOS, using recovered empirical distribution (not the explicit density distribution)
+<img width="507" height="325" alt="summary_bar_chart" src="https://github.com/user-attachments/assets/f37694b3-a74a-48e5-9865-91ebf32858d2" />
 <details>
   <summary>Improvements</summary>
   - weibull, etc, Seed? Architecture?, Colours:), dgp, statioarity assumption, log_density
@@ -75,6 +76,29 @@ $$W = Z + \varepsilon$$
   
   ## Student's t
   <img width="650" height="780" alt="sanity_check_student_t_mlp" src="https://github.com/user-attachments/assets/170927df-f91c-4666-8798-87096b66809f" />
+
+</details>
+
+<details>
+  <summary>Test on Unknown-Noise Setting</summary>
+  
+  ## W-Gaussian, E-Gaussian
+  <img width="845" height="520" alt="config_gaussian_x_gaussian_e-mlp_z-mlp" src="https://github.com/user-attachments/assets/0586a23d-d352-45ff-932b-94277b731be2" />
+  
+  ## W-Gaussian, E-Laplace
+  <img width="845" height="520" alt="config_gaussian_x_laplace_e-mlp_z-mlp" src="https://github.com/user-attachments/assets/ac32cf0c-0acb-42c9-8513-084912d1f12a" />
+  
+  ## W-GMM, E-Gaussian
+  <img width="845" height="520" alt="config_gmm_x_gaussian_e-mlp_z-mlp" src="https://github.com/user-attachments/assets/b1d1bee4-8f9d-4911-a290-ebc8f7215083" />
+  
+  ## W-GMM, E-Lognormal
+  <img width="845" height="520" alt="config_gmm_x_lognormal_e-mlp_z-mlp" src="https://github.com/user-attachments/assets/eb7b63ba-a816-4b5d-8b87-5ab6c90f2b1e" />
+  
+  ## W-Manifold, E-Laplace
+  <img width="845" height="520" alt="config_student_t_x_gaussian_e-mlp_z-mlp" src="https://github.com/user-attachments/assets/3073977c-1dcf-4ce1-ae12-d9fbadb84467" />
+  
+  ## W-Student's t, E-Gaussian
+  <img width="845" height="520" alt="config_manifold_x_laplace_e-mlp_z-mlp" src="https://github.com/user-attachments/assets/6efa2e1f-04e4-4f2d-8f94-25f33abdcc9c" />
 
 </details>
 
