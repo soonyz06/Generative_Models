@@ -2,7 +2,7 @@
 - Extending flow-based generative deconvolution models (MMD) to the unknown-noise setting
 <details>
   <summary>Improvements</summary>
-  - OOS? Seed? Architecture?
+  - OOS? Seed? Architecture?, Colours:), dgp, statioarity assumption, 
 </details>
 
 # Test on No-Noise Setting
